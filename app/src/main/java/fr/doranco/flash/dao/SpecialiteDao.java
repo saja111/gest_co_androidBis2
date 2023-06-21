@@ -15,10 +15,13 @@ import fr.doranco.flash.entity.Specialite;
 public interface SpecialiteDao {
     /**
      * enregistrer une nouvelle specialite en bd
-     * @param specialite  le nouvel objet a enregistrer
+     *
+     * @param specialite le nouvel objet a enregistrer
      */
     @Insert
-    static void create(Specialite specialite);
+    static void create(Specialite specialite) {
+
+    }
 
     /**
      * Chercher une Specialite
